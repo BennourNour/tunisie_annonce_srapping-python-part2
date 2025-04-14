@@ -1,5 +1,8 @@
 # tunisieAnnonceScrapping
 Ce projet est une API REST développée avec FastAPI qui permet de scraper et gérer les annonces immobilières du site Tunisie Annonce. L'application automatise la collecte des données immobilières et les rend accessibles via une API structurée.
+Ce projet comporte deux parties principales :
+-Scraping des données : Extraction des annonces immobilières depuis une source en ligne (par exemple, un site d'annonces).
+-Tableau de bord de visualisation : Un tableau de bord interactif construit avec Dash et Plotly pour analyser et visualiser les données d'annonces immobilières.
 ### Prérequis
 Avant d'exécuter cette application, vous devez avoir installé les outils suivants sur votre machine :
 - [Python 3.x](https://www.python.org/downloads/) (si vous ne l'avez pas déjà installé)
@@ -16,7 +19,7 @@ Avant d'exécuter cette application, vous devez avoir installé les outils suiva
 1. **Base de données PostgreSQL** :
    - Créez une base de données PostgreSQL appelée `tunisie_annonce`.
    - Configurez les paramètres de connexion dans le fichier `scraper.py` pour correspondre à votre installation de PostgreSQL.
-   - 
+   
 
 ## Installation et Exécution
 1. Clonez ce dépôt sur votre machine locale :
@@ -38,11 +41,11 @@ Avant d'exécuter cette application, vous devez avoir installé les outils suiva
   - `GET /` : Page d'accueil avec documentation des endpoints
   - `GET /annonces` : Récupération de toutes les annonces
   - `POST /scrape` : Déclenchement d'une nouvelle session de scraping
-  - - Liste des annonces : `http://localhost:8000/annonces`
+ - Liste des annonces : `http://localhost:8000/annonces`
 - Lancer le scraping : `POST http://localhost:8000/scrape`
 
 
-#Partie tableau de BORD 
+
 # Tableau de Bord Immobilier
 
 Ce projet crée un tableau de bord interactif pour l'analyse des annonces immobilières en Tunisie. Le tableau de bord permet de visualiser des données relatives aux prix des propriétés, aux types de biens, et aux localisations, le tout à travers des graphiques interactifs.
@@ -57,9 +60,7 @@ Ce projet crée un tableau de bord interactif pour l'analyse des annonces immobi
     - Répartition des types de biens (appartements, villas, terrains, etc.).
 
 ## Prérequis
-
-- Python 3.x
-- Les bibliothèques suivantes :
+- Les bibliothèques pour la creation de tableau de bord  :
     - Dash
     - Pandas
     - Plotly
