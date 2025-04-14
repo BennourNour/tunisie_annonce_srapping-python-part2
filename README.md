@@ -12,7 +12,7 @@ Avant d'exécuter cette application, vous devez avoir installé les outils suiva
 
 - **Scraping** : BeautifulSoup et Requests
 - **Base de Données** : PostgreSQL
-- **API** : Flask (REST API)
+- **API** : FastAPI
   -
 ### Configuration
 
