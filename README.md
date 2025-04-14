@@ -10,9 +10,9 @@ Avant d'exécuter cette application, vous devez avoir installé les outils suiva
 - pip (Gestionnaire de paquets Python)
 ## Technologies Utilisées
 
-- **Scraping** : BeautifulSoup et Requests
-- **Base de Données** : PostgreSQL
-- **API** : FastAPI
+- **Scraping** : BeautifulSoup et Requests pour l'extraction des données à partir du site web.
+- **Base de Données** : PostgreSQL pour le stockage des données des annonces.
+- **API** : FastAPI  pour la gestion de l'API REST
   -
 ### Configuration
 
